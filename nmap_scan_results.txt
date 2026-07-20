@@ -1,0 +1,8 @@
+# Nmap 7.99 scan initiated Mon Jul 20 11:16:16 2026 as: /data/data/com.termux/files/usr/bin/nmap -A -oN nmap_scan_results.txt 127.0.0.1
+Nmap scan report for localhost (127.0.0.1)
+Host is up (0.0028s latency).
+All 1000 scanned ports on localhost (127.0.0.1) are in ignored states.
+Not shown: 1000 closed tcp ports (conn-refused)
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon Jul 20 11:16:17 2026 -- 1 IP address (1 host up) scanned in 0.95 seconds
