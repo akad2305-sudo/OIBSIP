@@ -1,4 +1,4 @@
-# The Importance of Patch Management
+ The Importance of Patch Management
 
 ## Oasis Infobyte — Cyber Security Internship
 
@@ -75,3 +75,201 @@ Organization identifies affected systems
         ↓
 Patch deployed
         ↓
+Patch verified
+## 7. Seven-Step Patch Management Checklist
+
+### Step 1 — Maintain an Asset Inventory
+
+Create and continuously update a list of all hardware, software, operating systems, applications, and cloud assets.
+
+**Priority: Critical**
+
+### Step 2 — Monitor Vulnerabilities
+
+Monitor:
+
+- Vendor security advisories
+- CVE information
+- Vulnerability scanners
+- CISA's Known Exploited Vulnerabilities Catalog
+
+**Priority: Critical**
+
+### Step 3 — Prioritize by Risk
+
+Do not treat every patch as equally urgent.
+
+Prioritize based on:
+
+- Exploitation status
+- Vulnerability severity
+- Internet exposure
+- Business importance
+- Sensitive data
+- Availability of mitigations
+
+**Priority: Critical**
+
+### Step 4 — Test Important Patches
+
+Test patches in an appropriate environment before broad deployment when practical.
+
+**Priority: High**
+
+### Step 5 — Deploy Patches Quickly
+
+Deploy security patches according to the organization's defined risk-based deadlines.
+
+Critical vulnerabilities that are actively exploited should receive urgent attention.
+
+**Priority: Critical**
+
+### Step 6 — Verify Installation
+
+Confirm that patches were successfully installed using:
+
+- Version checks
+- Vulnerability scans
+- Management reports
+- System monitoring
+
+**Priority: High**
+
+### Step 7 — Document and Improve
+
+Record:
+
+- Which systems were patched
+- Which systems failed
+- Which patches were delayed
+- Why patches were delayed
+- What compensating controls were used
+- When remediation was completed
+
+**Priority: High**
+
+---
+
+## 8. Common Patch Management Challenges
+
+### 8.1 Legacy Systems
+
+Older systems may use outdated software that is no longer supported.
+
+**Solutions:**
+
+- Replace unsupported systems when possible.
+- Isolate legacy systems from unnecessary network access.
+- Apply available security updates.
+- Use compensating security controls.
+- Closely monitor vulnerable systems.
+
+### 8.2 Downtime Concerns
+
+Installing patches may require restarting systems or temporarily stopping services.
+
+**Solutions:**
+
+- Schedule maintenance windows.
+- Use redundant systems.
+- Patch systems in stages.
+- Use high-availability configurations.
+- Plan patching during low-impact periods.
+
+### 8.3 Testing Requirements
+
+A patch may create compatibility problems with applications or configurations.
+
+**Solutions:**
+
+- Test patches before broad deployment when practical.
+- Use a test environment.
+- Deploy first to a small group of systems.
+- Monitor for problems before wider deployment.
+
+### 8.4 Lack of Resources
+
+Small organizations may have limited security staff, budget, automation, and monitoring capabilities.
+
+**Solutions:**
+
+- Automate routine patching.
+- Use centralized patch-management tools.
+- Prioritize high-risk vulnerabilities.
+- Establish clear ownership.
+- Use managed security services when appropriate.
+
+### 8.5 Incomplete Asset Inventory
+
+Organizations cannot patch systems they do not know exist.
+
+**Solutions:**
+
+Maintain continuous asset discovery and inventory.
+
+Every important system should have:
+
+- An owner
+- A known software version
+- A patch status
+- A risk classification
+
+---
+
+## 9. Recommended Patch Management Policy
+
+A strong patch-management policy should define:
+
+### Asset Ownership
+
+Every important system should have a responsible owner.
+
+### Patch Priorities
+
+Define different deadlines for critical, high, medium, and low-risk vulnerabilities.
+
+### Emergency Patching
+
+Create procedures for vulnerabilities that are actively being exploited.
+
+### Testing
+
+Define when testing is required and when emergency deployment may be justified.
+
+### Verification
+
+Require evidence that patches were successfully installed.
+
+### Exceptions
+
+If a system cannot be patched, document:
+
+- The reason
+- The risk
+- The responsible owner
+- The compensating controls
+- The planned remediation date
+
+---
+
+## 10. Patch Management and Risk Reduction
+
+Patch management is not simply about installing updates. It is a continuous risk-management process.
+
+Organizations should continually:
+
+```text
+Discover
+   ↓
+Assess
+   ↓
+Prioritize
+   ↓
+Test
+   ↓
+Deploy
+   ↓
+Verify
+   ↓
+Monitor
+   ↓
